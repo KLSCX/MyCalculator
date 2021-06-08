@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="隐私政策"
+                android:textSize="30dp"
+                />
+            <ImageView
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="250dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more_1x"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户协议"
+                android:textSize="30dp"
+                />
+            <ImageView
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="250dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more_1x"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系客服"
+                android:textSize="30dp"
+                />
+            <ImageView
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="250dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more_1x"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:layout_marginTop="660dp"
+                android:layout_height="3px"
+                android:layout_width="match_parent"
+                android:background="#66CCFF"
+                />
+
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="665dp"
+                android:layout_width="63dp"
+                android:layout_height="74dp"
+                android:src="@drawable/index"
+                android:background="#FFF"/>
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_marginLeft="180dp"
+                android:layout_alignLeft="@id/btn5"
+                android:layout_marginTop="665dp"
+                android:layout_width="63dp"
+                android:layout_height="74dp"
+                android:src="@drawable/user"
+                android:background="#FFF"/>
+        </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

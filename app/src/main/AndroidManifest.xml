@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycalculation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyCalculation">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+<!--
+
+    编写儿童口算训练APP
+    系统要求：设计用于进行儿童100以内四则运算训练的口算APP，
+    实现用户信息管理，题目集管理，答题与结果统计分析等内容。
+    可以在《软件构造》中完成的口算系统原型基础上，
+    使用Android Studio开发环境，设计用户界面，数据存储与传递等方式，最终完成能够使用的口算APP。
+    功能设计
+    （1）用户管理
+    （2）题目集管理
+    （3）题目显示
+    （4）答题与判题
+    （5）做题结果统计
+    （6）多用户口算PK（选做）
+-->
