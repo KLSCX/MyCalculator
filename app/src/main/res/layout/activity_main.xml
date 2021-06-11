@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FFF"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -71,7 +73,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="3px"
-            android:layout_marginTop="780dp"
+            android:layout_marginTop="680dp"
             android:background="#66CCFF"
 
             />
@@ -81,7 +83,7 @@
             android:layout_width="63dp"
             android:layout_height="74dp"
             android:layout_marginLeft="80dp"
-            android:layout_marginTop="785dp"
+            android:layout_marginTop="685dp"
             android:background="#FFF"
             android:src="@drawable/index" />
 
@@ -91,7 +93,7 @@
             android:layout_height="74dp"
             android:layout_alignLeft="@id/btn5"
             android:layout_marginLeft="180dp"
-            android:layout_marginTop="785dp"
+            android:layout_marginTop="685dp"
             android:background="#FFF"
             android:src="@drawable/user" />
 

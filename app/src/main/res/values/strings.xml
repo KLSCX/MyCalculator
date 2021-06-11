@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MyCalculation</string>
+    <string name="app_name">口算APP</string>
+    <string name="register">注册</string>
+    <string name="account_hint">请输入用户名</string>
+    <string name="code_hint">请输入验证码</string>
+    <string name="pwd_hint2">请确认密码</string>
+    <string name="login">登录</string>
+    <string name="pwd_hint1">请输入密码</string>
 </resources>

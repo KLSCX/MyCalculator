@@ -4,9 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFF"
     >
 
         <LinearLayout
+            android:id="@+id/userbtn1"
             android:layout_width="wrap_content"
             android:layout_height="40dp">
             <TextView
@@ -14,6 +16,7 @@
                 android:layout_height="wrap_content"
                 android:text="隐私政策"
                 android:textSize="30dp"
+                android:textColor="@color/black"
                 />
             <ImageView
                 android:layout_marginTop="7dp"
@@ -25,6 +28,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/userbtn2"
             android:layout_width="wrap_content"
             android:layout_height="40dp">
             <TextView
@@ -32,6 +36,7 @@
                 android:layout_height="wrap_content"
                 android:text="用户协议"
                 android:textSize="30dp"
+                android:textColor="@color/black"
                 />
             <ImageView
                 android:layout_marginTop="7dp"
@@ -41,6 +46,7 @@
                 android:src="@drawable/more_1x"/>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/userbtn3"
             android:layout_width="wrap_content"
             android:layout_height="40dp">
             <TextView
@@ -48,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:text="联系客服"
                 android:textSize="30dp"
+                android:textColor="@color/black"
                 />
             <ImageView
                 android:layout_marginTop="7dp"
@@ -61,25 +68,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <View
-                android:layout_marginTop="660dp"
+                android:layout_marginTop="560dp"
                 android:layout_height="3px"
                 android:layout_width="match_parent"
                 android:background="#66CCFF"
                 />
 
             <ImageButton
-                android:id="@+id/btn5"
+                android:id="@+id/userbtn5"
                 android:layout_marginLeft="80dp"
-                android:layout_marginTop="665dp"
+                android:layout_marginTop="565dp"
                 android:layout_width="63dp"
                 android:layout_height="74dp"
                 android:src="@drawable/index"
                 android:background="#FFF"/>
             <ImageButton
-                android:id="@+id/btn6"
+                android:id="@+id/userbtn6"
                 android:layout_marginLeft="180dp"
-                android:layout_alignLeft="@id/btn5"
-                android:layout_marginTop="665dp"
+                android:layout_alignLeft="@id/userbtn5"
+                android:layout_marginTop="565dp"
                 android:layout_width="63dp"
                 android:layout_height="74dp"
                 android:src="@drawable/user"
